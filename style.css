@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: wheat;
+}
+
+.Home {
+    height: 100vh;
+    background: url('portfolio-background-400x270-MM-100.png')no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-content {
+    max-width: 600px;
+    margin: 20px 0 40px;
+}
+
+.home-content p {
+    max-width: 600px;
+    margin: 5px 0 10px;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.home-content h3 {
+    font-size: 25px;
+    font-weight: 250;
+    color: whitesmoke;
+    margin: 10px 0 20px;
+
+}
+
+.home-content btn-box {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+
+.home-contact {
+    position: absolute;
+    bottom: 40px;
+    width: 25px;
+    display: flex;
+    background: transparent;
+
+}
+
+.home-contact a {
+    display: inline-flex;
+    justify-self: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    border: 20px thin black;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
